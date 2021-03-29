@@ -23,7 +23,7 @@ const init = async () => {
         host: 'localhost',
         routes: { cors: true }
     });
-
+    // upload a waiver from the app
     server.route({
         method: 'POST',
         path: '/newWaiver',
